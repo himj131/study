@@ -2,25 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef6e45a7-cdf8-4c98-9561-cece7c7aac96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unittest/src/main/java/chapter2/2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unittest/src/main/java/chapter2/Answer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unittest/src/main/java/chapter2/Bool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unittest/src/main/java/chapter2/BooleanQuestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unittest/src/main/java/chapter2/Criteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unittest/src/main/java/chapter2/Criterion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unittest/src/main/java/chapter2/PercentileQuestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unittest/src/main/java/chapter2/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unittest/src/main/java/chapter2/Profile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unittest/src/main/java/chapter2/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unittest/src/main/java/chapter2/ScoreCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unittest/src/main/java/chapter2/Scoreable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unittest/src/main/java/chapter2/Weight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unittest/src/test/java/chapter2/ProfileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unittest/src/main/java/chapter3/3.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unittest/src/main/java/chapter3/Coverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unittest/src/test/java/chapter3/AssertTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unittest/src/test/java/chapter3/ExpectToFail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unittest/src/test/java/chapter3/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unittest/src/test/java/chapter3/PointMatcher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unittest/src/main/java/one/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/unittest/src/main/java/chapter1/1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unittest/unittest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/unittest/unittest.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/unittest1/target/" />
@@ -41,8 +29,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/unittest/src/main/java/chapter2/Criteria.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="506">
-                  <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+                <state relative-caret-position="368">
+                  <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
                   <folding>
                     <element signature="e#697#698#0" expanded="true" />
                     <element signature="e#733#734#0" expanded="true" />
@@ -55,21 +43,25 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/unittest/src/main/java/chapter2/2.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="521">
-                    <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
+                  <first_editor relative-caret-position="3243">
+                    <caret line="141" column="46" selection-start-line="141" selection-start-column="46" selection-end-line="141" selection-end-column="46" />
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/unittest/src/main/java/chapter3/3.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="733">
+                    <caret line="134" column="21" lean-forward="true" selection-start-line="134" selection-start-column="21" selection-end-line="134" selection-end-column="21" />
                     <folding>
-                      <element signature="e#158#159#0" expanded="true" />
-                      <element signature="e#187#188#0" expanded="true" />
-                      <element signature="e#220#221#0" expanded="true" />
-                      <element signature="e#244#245#0" expanded="true" />
-                      <element signature="e#280#281#0" expanded="true" />
-                      <element signature="e#339#340#0" expanded="true" />
-                      <element signature="e#1103#1104#0" expanded="true" />
-                      <element signature="e#1128#1129#0" expanded="true" />
                       <element signature="imports" expanded="true" />
                     </folding>
                   </first_editor>
@@ -79,9 +71,51 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/unittest/src/test/java/chapter3/AssertTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-943">
+                  <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+                  <folding>
+                    <element signature="e#2314#2315#0" expanded="true" />
+                    <element signature="e#2399#2400#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.6.0-M1/junit-jupiter-api-5.6.0-M1.jar!/org/junit/jupiter/api/Test.class">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="322">
+                  <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/unittest/src/test/java/chapter3/Point.java">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/unittest/src/test/java/chapter3/PointMatcher.java">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/unittest/src/test/java/chapter3/ExpectToFail.java">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/unittest/src/main/java/chapter3/Coverage.java">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/unittest/src/main/java/chapter2/Profile.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
+                <state relative-caret-position="483">
                   <caret line="28" column="30" selection-end-line="51" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -93,11 +127,11 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/unittest/src/test/java/chapter2/ProfileTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="292">
+                <state relative-caret-position="168">
                   <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -141,6 +175,12 @@
         <option value="$PROJECT_DIR$/unittest/src/main/java/chapter2/Profile.java" />
         <option value="$PROJECT_DIR$/unittest/src/test/java/chapter2/ProfileTest.java" />
         <option value="$PROJECT_DIR$/unittest/src/main/java/chapter2/2.md" />
+        <option value="$PROJECT_DIR$/unittest/src/main/java/chapter3/Coverage.java" />
+        <option value="$PROJECT_DIR$/unittest/src/test/java/chapter3/ProfileTest.java" />
+        <option value="$PROJECT_DIR$/unittest/src/test/java/chapter3/ExpectToFail.java" />
+        <option value="$PROJECT_DIR$/unittest/src/test/java/chapter3/PointMatcher.java" />
+        <option value="$PROJECT_DIR$/unittest/src/test/java/chapter3/AssertTest.java" />
+        <option value="$PROJECT_DIR$/unittest/src/main/java/chapter3/3.md" />
       </list>
     </option>
   </component>
@@ -165,8 +205,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,16 +257,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="unittest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
@@ -251,6 +282,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="chapter2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="unittest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -270,7 +310,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/unittest/src/main/java/chapter2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/unittest/src/test/java/chapter3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Facets" />
@@ -282,20 +322,23 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="chapter2" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="M:\coding\study\unittest\src\main\java\chapter2" />
-      <recent name="M:\coding\study\unittest\src\main\java" />
-      <recent name="M:\coding\study\.idea" />
-      <recent name="M:\coding\study\unittest\1" />
-      <recent name="M:\coding\study\unittest\1\src" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="M:\coding\study\unittest\src\main\java\one" />
       <recent name="M:\coding\study\unittest1\src\main\resources" />
       <recent name="M:\coding\study\unittest" />
+      <recent name="M:\coding\study\unittest\1" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="chapter3" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="M:\coding\study\unittest\src\test\java\chapter3" />
+      <recent name="M:\coding\study\unittest\src\main\java\chapter2" />
+      <recent name="M:\coding\study\unittest\src\main\java" />
+      <recent name="M:\coding\study\.idea" />
       <recent name="M:\coding\study\unittest\1" />
     </key>
   </component>
@@ -311,7 +354,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProfileTest">
+  <component name="RunManager" selected="JUnit.AssertTest">
+    <configuration name="AssertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unittest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chapter3" />
+      <option name="MAIN_CLASS_NAME" value="chapter3.AssertTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProfileTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unittest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chapter3" />
+      <option name="MAIN_CLASS_NAME" value="chapter3.ProfileTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProfileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unittest" />
       <extension name="coverage">
@@ -359,28 +432,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScoreCollectionTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="iloveyouboss.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="iloveyouboss" />
-      <option name="MAIN_CLASS_NAME" value="iloveyouboss.ScoreCollectionTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AssertTest" />
+        <item itemvalue="JUnit.ProfileTest (1)" />
         <item itemvalue="JUnit.ProfileTest" />
         <item itemvalue="JUnit.ProfileTest.matchAnswersFalseWhenMustMatchCriteriaNotMet" />
         <item itemvalue="JUnit.ProfileTest.test" />
-        <item itemvalue="JUnit.ScoreCollectionTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -401,7 +459,8 @@
       <workItem from="1576405594122" duration="1394000" />
       <workItem from="1576412078093" duration="1071000" />
       <workItem from="1576475915009" duration="1809000" />
-      <workItem from="1576587631118" duration="4720000" />
+      <workItem from="1576587631118" duration="8065000" />
+      <workItem from="1576705335504" duration="4202000" />
     </task>
     <task id="LOCAL-00001" summary="#1.시스템 구성정보 확인">
       <created>1576213496945</created>
@@ -440,9 +499,15 @@
     <history-entry file="ProfileTest - 2019.12.17 at 22h 35m 58s.xml">
       <configuration name="ProfileTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ProfileTest_(1) - 2019.12.18 at 07h 57m 13s.xml">
+      <configuration name="ProfileTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssertTest - 2019.12.18 at 08h 02m 20s.xml">
+      <configuration name="AssertTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20841000" />
+    <option name="totallyTimeSpent" value="28388000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -457,7 +522,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13219616" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13326226" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -466,7 +531,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -610,21 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unittest/src/main/java/chapter2/Criteria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
-          <folding>
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#887#888#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/unittest/src/main/java/chapter1/1.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -638,22 +688,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unittest/src/main/java/chapter2/Profile.java">
+    <entry file="file://$PROJECT_DIR$/unittest/src/main/java/chapter2/Criteria.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="28" column="30" selection-end-line="51" />
+        <state relative-caret-position="368">
+          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unittest/src/test/java/chapter2/ProfileTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -661,17 +706,69 @@
     <entry file="file://$PROJECT_DIR$/unittest/src/main/java/chapter2/2.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="521">
-            <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
+          <first_editor relative-caret-position="3243">
+            <caret line="141" column="46" selection-start-line="141" selection-start-column="46" selection-end-line="141" selection-end-column="46" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.6.0-M1/junit-jupiter-api-5.6.0-M1.jar!/org/junit/jupiter/api/Test.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest/src/test/java/chapter3/Point.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest/src/test/java/chapter3/PointMatcher.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest/src/test/java/chapter3/ExpectToFail.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest/src/main/java/chapter3/Coverage.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest/src/main/java/chapter2/Profile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="28" column="30" selection-end-line="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest/src/test/java/chapter3/AssertTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-943">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="e#2314#2315#0" expanded="true" />
+            <element signature="e#2399#2400#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest/src/test/java/chapter2/ProfileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest/src/main/java/chapter3/3.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="733">
+            <caret line="134" column="21" lean-forward="true" selection-start-line="134" selection-start-column="21" selection-end-line="134" selection-end-column="21" />
             <folding>
-              <element signature="e#158#159#0" expanded="true" />
-              <element signature="e#187#188#0" expanded="true" />
-              <element signature="e#220#221#0" expanded="true" />
-              <element signature="e#244#245#0" expanded="true" />
-              <element signature="e#280#281#0" expanded="true" />
-              <element signature="e#339#340#0" expanded="true" />
-              <element signature="e#1103#1104#0" expanded="true" />
-              <element signature="e#1128#1129#0" expanded="true" />
               <element signature="imports" expanded="true" />
             </folding>
           </first_editor>
