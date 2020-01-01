@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef6e45a7-cdf8-4c98-9561-cece7c7aac96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/linuxBasic/2.loadAerage.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unittest/src/main/java/chapter5/5.FIRST.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unittest/src/main/java/chapter5/chapter5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unittest/src/main/java/chapter6/6.Right-BICEP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unittest/src/main/java/chapter6/chapter6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unittest/src/main/java/chapter7/7.CORRECT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unittest/src/main/java/chapter7/chapter7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unittest/src/test/java/chapter5/chapter5Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unittest/unittest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/unittest/unittest.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/unittest1/target/" />
     <ignored path="$PROJECT_DIR$/unittest/target/" />
@@ -19,11 +26,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/linuxBasic/2.loadAerage.md">
+        <entry file="file://$PROJECT_DIR$/unittest/src/main/java/chapter7/7.CORRECT.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="627">
-                <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+              <first_editor relative-caret-position="258">
+                <caret line="45" selection-start-line="45" selection-end-line="45" />
               </first_editor>
               <second_editor />
             </state>
@@ -31,11 +38,56 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linuxBasic/1.시스템_구성정보_확인.md">
+        <entry file="file://$PROJECT_DIR$/unittest/src/main/java/chapter5/chapter5.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unittest/src/test/java/chapter5/chapter5Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#154#155#0" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unittest/src/main/java/chapter6/chapter6.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unittest/src/main/java/chapter7/chapter7.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unittest/src/main/java/chapter5/5.FIRST.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="736">
-                <caret line="38" column="56" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
+              <first_editor relative-caret-position="315">
+                <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unittest/src/main/java/chapter6/6.Right-BICEP.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="255">
+                <caret line="17" selection-start-line="17" selection-end-line="23" selection-end-column="59" />
               </first_editor>
               <second_editor />
             </state>
@@ -49,6 +101,7 @@
       <list>
         <option value="Class" />
         <option value="Arquillian JUnit Test Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -83,6 +136,13 @@
         <option value="$PROJECT_DIR$/unittest/src/main/java/chapter3/3.md" />
         <option value="$PROJECT_DIR$/unittest/src/main/java/chapter4/4.md" />
         <option value="$PROJECT_DIR$/linuxBasic/2.loadAerage.md" />
+        <option value="$PROJECT_DIR$/unittest/src/main/java/chapter5/5.FIRST.md" />
+        <option value="$PROJECT_DIR$/unittest/src/main/java/chapter6/6.Right-BICEP.md" />
+        <option value="$PROJECT_DIR$/unittest/src/main/java/chapter6/chapter6.java" />
+        <option value="$PROJECT_DIR$/unittest/src/main/java/chapter7/chapter7.java" />
+        <option value="$PROJECT_DIR$/unittest/src/main/java/chapter5/chapter5.java" />
+        <option value="$PROJECT_DIR$/unittest/src/test/java/chapter5/chapter5Test.java" />
+        <option value="$PROJECT_DIR$/unittest/src/main/java/chapter7/7.CORRECT.md" />
       </list>
     </option>
   </component>
@@ -94,10 +154,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="835" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -107,7 +166,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,7 +217,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
@@ -167,46 +226,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter4" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter6" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
               <item name="unittest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="unittest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="unittest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="unittest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter7" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,10 +253,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/linuxBasic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/unittest/src/main/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Facets" />
@@ -231,19 +267,22 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="chapter5" />
       <recent name="chapter2" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/unittest/src/main/java" />
       <recent name="M:\coding\study\linuxBasic" />
       <recent name="M:\coding\study\unittest\src\test\java\chapter3" />
       <recent name="M:\coding\study\unittest\src\main\java\chapter2" />
       <recent name="M:\coding\study\unittest\src\main\java" />
-      <recent name="M:\coding\study\.idea" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="chapter7" />
+      <recent name="chapter6" />
       <recent name="chapter3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -374,6 +413,9 @@
       <workItem from="1576705335504" duration="4202000" />
       <workItem from="1576794897776" duration="2133000" />
       <workItem from="1577245520436" duration="3523000" />
+      <workItem from="1577585817889" duration="3351000" />
+      <workItem from="1577590170604" duration="4545000" />
+      <workItem from="1577851307399" duration="3314000" />
     </task>
     <task id="LOCAL-00001" summary="#1.시스템 구성정보 확인">
       <created>1576213496945</created>
@@ -427,7 +469,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34044000" />
+    <option name="totallyTimeSpent" value="45254000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -439,10 +481,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="835" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13539445" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16881259" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -451,7 +493,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -484,13 +526,7 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/unittest/iloveyouboss_01/src/iloveyouboss/Scoreable.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/FunctionalInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="39" column="66" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/FunctionalInterface.java" />
     <entry file="file://$PROJECT_DIR$/unittest/1/src/iloveyouboss/ScoreCollection.java" />
     <entry file="file://$PROJECT_DIR$/unittest/1/1.iml" />
     <entry file="file://$PROJECT_DIR$/unittest/1/src/iloveyouboss/Scoreable.java" />
@@ -613,13 +649,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.6.0-M1/junit-jupiter-api-5.6.0-M1.jar!/org/junit/jupiter/api/Test.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.6.0-M1/junit-jupiter-api-5.6.0-M1.jar!/org/junit/jupiter/api/Test.class" />
     <entry file="file://$PROJECT_DIR$/unittest/src/test/java/chapter3/Point.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -639,16 +669,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unittest/src/main/java/chapter4/4.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="458">
-            <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -682,10 +702,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linuxBasic/0.리눅스구조.md">
+    <entry file="file://$PROJECT_DIR$/linuxBasic/0.리눅스구조.md" />
+    <entry file="file://$PROJECT_DIR$/linuxBasic/2.loadAerage.md" />
+    <entry file="file://$PROJECT_DIR$/unittest/src/main/java/chapter4/4.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-828" />
+          <first_editor relative-caret-position="1050">
+            <caret line="70" selection-start-line="70" selection-end-line="70" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linuxBasic/3.loadAerage.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
           <second_editor />
         </state>
       </provider>
@@ -693,18 +725,63 @@
     <entry file="file://$PROJECT_DIR$/linuxBasic/1.시스템_구성정보_확인.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="736">
+          <first_editor relative-caret-position="570">
             <caret line="38" column="56" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linuxBasic/2.loadAerage.md">
+    <entry file="file://$PROJECT_DIR$/unittest/src/main/java/chapter6/6.Right-BICEP.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="627">
-            <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+          <first_editor relative-caret-position="255">
+            <caret line="17" selection-start-line="17" selection-end-line="23" selection-end-column="59" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest/src/main/java/chapter6/chapter6.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest/src/main/java/chapter7/chapter7.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest/src/main/java/chapter5/5.FIRST.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="315">
+            <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest/src/main/java/chapter5/chapter5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest/src/test/java/chapter5/chapter5Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest/src/main/java/chapter7/7.CORRECT.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="258">
+            <caret line="45" selection-start-line="45" selection-end-line="45" />
           </first_editor>
           <second_editor />
         </state>
