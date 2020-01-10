@@ -7,6 +7,13 @@ import java.util.Map;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
+/**
+ *
+ * 1. 메서드 추출 : matches
+ * 2. 메서드 이동 : matches Answers -> Criteria
+ * 3. answerMatching 메서드 생성, answer 변수 제거 및 인라인
+ *
+ * */
 public class Profile_Before {
     private Map<String,Answer> answers = new HashMap<>();
     // ...
@@ -32,10 +39,12 @@ public class Profile_Before {
         boolean kill = false;
         boolean anyMatches = false;
         for (Criterion criterion: criteria) {
+//          3. answerMatching 메서드 생성, answer 변수 제거 및 인라인
             Answer answer = answers.get(
                     criterion.getAnswer().getQuestionText());
-            boolean match =
-                    criterion.getWeight() == Weight.DontCare ||
+
+//            1. 메서드 추출 : matches
+            boolean match = criterion.getWeight() == Weight.DontCare ||
                             answer.match(criterion.getAnswer());
             if (!match && criterion.getWeight() == Weight.MustMatch) {
                 kill = true;
