@@ -17,7 +17,7 @@ public class Criterion implements Scoreable {
     public void setScore(int score) { this.score = score; }
     public int getScore() { return score; }
     public boolean matches(Answer answer) {
-        return getWeight() == Weight.DontCare ||
-                answer.match(getAnswer());
-    }
+    return getWeight() == Weight.DontCare ||
+            answer.match(getAnswer());
+}
 }
