@@ -1,0 +1,55 @@
+package chapter13;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.function.BiConsumer;
+import java.util.stream.Collectors;
+
+public class ProfileMatcher_4 {
+    private Map<String, Profile> profiles = new HashMap<>();
+    private static final int DEFAULT_POOL_SIZE = 4;
+
+    public void add(Profile profile) {
+        profiles.put(profile.getId(), profile);
+    }
+
+    private ExecutorService executor =
+            Executors.newFixedThreadPool(DEFAULT_POOL_SIZE);
+
+    ExecutorService getExecutor() {
+        return executor;
+    }
+
+    public void findMatchingProfiles(
+            Criteria criteria,
+            MatchListener listener,
+            List<MatchSet> matchSets,
+            BiConsumer<MatchListener, MatchSet> processFunction) { //각 스레드에서 실행되는 함수
+        for (MatchSet set: matchSets) {
+            Runnable runnable = () -> processFunction.accept(listener, set);
+            executor.execute(runnable);
+        }
+        executor.shutdown();
+    }
+
+    public void findMatchingProfiles(
+            Criteria criteria, MatchListener listener) {
+        findMatchingProfiles(
+                criteria, listener, collectMatchSets(criteria), this::process);
+    }
+
+    void process(MatchListener listener, MatchSet set) {
+        if (set.matches())
+            listener.foundMatch(profiles.get(set.getProfileId()), set);
+    }
+
+    List<MatchSet> collectMatchSets(Criteria criteria) {
+        List<MatchSet> matchSets = profiles.values().stream()
+                .map(profile -> profile.getMatchSet(criteria))
+                .collect(Collectors.toList());
+        return matchSets;
+    }
+}
